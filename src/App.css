@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+.LoginImg{
+  color: aqua;
+}
+.loginPage{
+  height: 610px;
+  background:  #E0DDF8;
+}
+.loginContainer{
+  /* background: linear-gradient(to left,#F7F7F7, #7D6FD8); */
+  background-color:  #7D6FD8;
+}
+.loginCol2{
+  /* background: linear-gradient(to right,#F7F7F7, #7D6FD8); */
+  background-color:  whitesmoke;
+  padding:60px
+}
+.loginRow{
+  height: 500px;
+  border: 5px hsl(0, 0%, 80%);
+}
+.loginheading{
+  color: whitesmoke;
+}
+.item-text{
+  color: whitesmoke;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginInput{
+  width: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buttonColor{
+  background-color: #7D6FD8;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.buttonColor:hover{
+  background-color: hsl(248, 52%, 56%);
 }
-
-.App-link {
-  color: #61dafb;
+.forgotpassword{
+  color:hsl(248, 52%, 56%);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signinusing{
+  margin-right: 40px;
 }
