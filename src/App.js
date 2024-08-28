@@ -1,12 +1,11 @@
 import React from 'react'
-import LoginPage from './Component/LoginPage';
-import NavBar from './Component/NavBar';
+import DashBoard from './Component/DashBoard';
 
 function App() {
   return (
-    <div>
-      {/* <LoginPage/> */}
-      <NavBar />
+    <div  >
+      <DashBoard />
+
     </div>
   )
 }
